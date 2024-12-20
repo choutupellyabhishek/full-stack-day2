@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><img src="bus.jpg"  width="100"alt=""></center>
+    <center><h1>TELANGANA STATE ROAD TRANSPORT CORPORATION</h1>
+    <H2>GENERAL BUS PASS APPLICATION</H2>
+    </center>
+    <form action="./submitted.html" autocomplete="off">
+    <fieldset>
+        <legend><h1>Application Details</h1></legend>
+    
+    
+        <label for="name" >NAME</label>
+        <input  type="text" id="name" name="name" pattern="[a-zA-Z]+" required>
+        <br>
+        <label for="name">Father /Guardian's Name</label>
+        <input type="text" name="name" id="name"pattern="[a-zA-Z]+" required>
+        <br>
+        <label for Date of birth>Date of birth:</label>
+        <input type="Date" name="Date of birth" placeholder="dd-mm-yyyy" required>
+        <br>
+        <label for="gender">Gender</label>
+        <input type="radio" value="male" name="gender" required> male
+        <input type="radio" value="female" name="gender" required> female
+        <br>
+        <label for="number"> whatsapp no</label>
+        <input type="text" name="number" id="number">
+        <br>
+        <label for="text">Age as on</label>
+        <input type="text" name="text" id="text">
+        <br>
+        <label for="email">E-mail id</label>
+        <input type="text" name="email" id="email">
+        <br>
+        <label for="photo">photo</label>
+        <input type="file" name="photo" id="photo">
+
+    
+</fieldset>
+
+        
+        <fieldset>
+            <legend><h1 >Address Details</h1></legend>
+            <label for="address">Application address</label>
+        
+            <input type="area" name="address" id="address">
+        <br>
+            <label for="district">district :</label>
+        <select name="" id="district">
+            <option>select </option>
+            <option value="karimangar">karimangar</option>
+            <option value="jagityal"> jagityal</option>
+        </select><br>
+
+            <label for="mandal">
+                mandal
+
+            </label>
+            <select name="" id="mandal">
+                <option>select </option>
+                <option value="jagityal">jagityal</option>
+                <option value="korutla">korutla</option>
+            </select>
+            <br>
+            <label for="village"> village</label>
+            <select name="" id="village">
+                <option>select </option>
+                <option value="korutla">korutla</option>
+                <option value="metpally">metpally</option>
+            </select>
+           <br>
+            <label for="pincode">pincode</label>
+    <input type="pincode" name="pincode" id="pincode">
+     
+        </fieldset>
+        <fieldset>
+            <legend><h1>Pass Type Details</h1></legend>
+            <label for="city"> City</label>
+            <select name="city" id="city">
+                <option>select </option>
+                <option value="karimangar">karimangar</option>
+                <option value="jagityal">jagityal</option>
+                <option value="korutla">korutla</option>
+            </select>
+            <br>
+            <label for="pass type" autocomplete="off">passtype</label>
+            <select name="city" id="passtype">
+                <option>select </option>
+                <option value="General pass">General pass</option>
+                <option value=" ordinary  pass "> ordinar pass</option>
+                <option value="metro pass">metro pass</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend><h1>Mode of payment and pass collection</h1></legend>
+            <label for="payment">
+               mode of payment 
+            </label>
+            <select name="payment" id="option">
+                <option>select </option>
+                <option value="online">online</option>
+                <option value="bus counter">bus counter</option>
+            </select>
+            
+            <br>
+
+            <label for="delivery">pass delivery mode</label>
+            <select name="delivery" id="delivery">
+                <option>select </option>
+                <option value="karimnagar bustop">karimangar bustop</option>
+                <option value="jagityal bustop">jagityal bustop</option>
+                <option value="korutla bustop">korutla bustop</option>
+            </select><br>
+
+            <label for="collect pass">center at which you want to collect pass</label>
+            <select name="collect pass" id="">
+                <option>select </option>
+                <option value="karimnagar">karimnagar</option>
+                <option value="jagityal">jagityal</option>
+                <option value="korutla">korutla</option>
+            </select>
+        </fieldset>
+         <center><img src="otp.jpg.png"  width="100"alt="">
+         <label for="otp">
+            
+         </label>
+         <input type="otp" pattern="BjcEpG">
+         <input type="submit"  value="submit">
+         </center>
+    </form>
+
+
+</body>
+</html>
